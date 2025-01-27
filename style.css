@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Kanit", serif;
+}
+body{
+    height: 915px;
+    background: linear-gradient(to top right, #003399 0%, #660066 100%);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+@media screen and (max-width:600px){
+    .form{
+      width: 100%;
+    }
+}
